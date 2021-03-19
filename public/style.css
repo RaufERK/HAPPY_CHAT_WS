@@ -1,0 +1,50 @@
+body {
+  background-color: bisque;
+  font-family: 'Blinker', sans-serif;
+  font-size: larger;
+}
+
+input {
+  width: 100%;
+  font-size: larger;
+  font-family: 'Blinker', sans-serif;
+}
+
+button {
+  width: 100%;
+  font-size: larger;
+  font-family: 'Blinker', sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  width: 250px;
+}
+
+.block {
+  width: 100%;
+  border-radius: 5px;
+}
+
+li {
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  font-size: larger;
+  font-family: 'Blinker', sans-serif;
+}
+
+li:nth-child(odd) {
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  font-style: italic;
+}

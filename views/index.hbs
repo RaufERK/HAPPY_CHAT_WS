@@ -1,0 +1,12 @@
+  <h1>-= HAPPY CHAT =-</h1>
+<div class='container'>
+  <ul id='messages' class="block">
+    {{#each messages}}
+    <li>{{this.text}}</li>
+    {{/each}}
+  </ul>
+  <form action="/" method='post' name='msgForm'>
+    <input type="text" name="text" placeholder="enter your message">
+    <button>SEND</button>
+  </form>
+</div>
